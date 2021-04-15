@@ -1,0 +1,35 @@
+
+
+
+body{
+    background-color: aliceblue;
+    
+
+}
+
+#form{
+  margin: 00% 25% 00%  25%;
+   border:2px solid black;
+ padding:20px;
+   width: 50%;
+}
+label{
+    font-size: 20px;
+}
+input{
+	align-items:center;
+}
+
+#name,#uname,#pass,#cpass,#email,#houseNum,#age,#street,#city,#state,#country{
+    width: 100%;
+    border: solid black 2px;
+}
+#Profession{
+    width: 50%;
+}
+
+button{
+    text-align: center;
+    width: 50%;
+
+}

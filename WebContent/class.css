@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+
+.container {
+	border: 2px solid black;
+	height: auto;
+	width: auto;
+	margin: 5%;
+	Display: grid;
+}
+
+#c {
+	border: 2px solid black;
+	border-radius: 40px;
+	width: auto;
+	height: auto;
+	background-color: coral;
+	padding: 20px;
+	box-shadow: 8px 8px darkgrey;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+	font-size: 23px;
+	color: black;
+}

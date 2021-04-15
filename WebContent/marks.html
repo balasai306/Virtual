@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            animation-name: first-anim;
+            animation-duration: 5s;
+            animation-iteration-count:1;
+        }
+
+        @keyframes first-anim{
+            0% {
+                background-color: chartreuse;
+                height: 110px;
+                width: 110px;
+            }
+
+            25% {
+                background-color: orange;
+                /* height: 200px;
+                width: 200px; */
+
+            }
+
+            /* 50%{
+                background-color:blue;
+                height: 350px;
+                width: 350px;
+
+            }
+            75%{
+                background-color:rgb(151, 151, 185);
+                height: 500px;
+                width: 500px;
+
+            } */
+            100% {
+                background-color: rgb(151, 151, 185);
+                height: 750px;
+                width: 100%;
+
+            }
+
+        }
+
+        header {
+            animation-name: head-anim;
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+
+        }
+        @keyframes head-anim {
+            0% {
+              font-size: 25px;
+            }
+            100% {
+                padding: 25%;
+                font-size: 100px;
+                transform: rotate(360deg);
+
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div style="background: chartreuse; height: 100%; width: auto;">
+        <header style="text-align: center; font-size: 75px; padding:25%;height: 75%;" > Marks Updated <br>
+   <button name="updated"> <a href="staff.jsp" style="text-decoration: none">Go back</a> </button></header>
+    </div>
+    
+
+</body>
+
+</html>
